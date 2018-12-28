@@ -25,11 +25,13 @@ margin-bottom: 1.45rem;
 .sub-nav-top{
   display: flex;
   justify-content: center;
+  margin-bottom: .5em;
 }
 .sub-nav-bot{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  color: black;
 }
 
 .sub-nav-flex{
@@ -39,7 +41,15 @@ margin-bottom: 1.45rem;
 .sub-nav-flex div {
   margin: 0 1.4em;
 }
+.sub-nav-bot a {
+  text-decoration: none;
+  color: black;
 
+}
+
+.sub-nav-flex svg {
+  font-size: 1.5em;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
