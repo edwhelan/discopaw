@@ -2,31 +2,44 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 
+import { FaInstagram, FaTwitterSquare, FaFacebook } from 'react-icons/fa'
+
+
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+  <div className='navbar'>
+
+    <div className='sub-nav-top'>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `black`,
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          Disco Paw
         </Link>
       </h1>
+
+    </div>
+    <div className='sub-nav-bot'>
+
+      <div className='sub-nav-flex'>
+        <div>
+          <Link to='#'>The Story</Link>
+        </div>
+        <div>
+          <Link to='#'>The Tunes</Link>
+        </div>
+        <div>
+          <Link to='#'>The Contract</Link>
+        </div>
+      </div>
+      <div className='sub-nav-flex'>
+        <div><FaInstagram /></div>
+        <div><FaTwitterSquare /></div>
+        <div><FaFacebook /></div>
+      </div>
     </div>
   </div>
 )
