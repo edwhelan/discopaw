@@ -36,9 +36,9 @@ const Header = ({ siteTitle }) => (
         </div>
       </div>
       <div className='sub-nav-flex'>
-        <div><Link to='https://www.instagram.com/discopaw/'><FaInstagram /></Link></div>
-        <div><Link to='#' ><FaTwitterSquare /></Link></div>
-        <div><Link to='https://www.facebook.com/discopaw/' ><FaFacebook /></Link></div>
+        <div><a href='https://www.instagram.com/discopaw/'><FaInstagram /></a></div>
+        <div><a href='#' ><FaTwitterSquare /></a></div>
+        <div><a href='https://www.facebook.com/discopaw/' ><FaFacebook /></a></div>
       </div>
     </div>
   </div>
