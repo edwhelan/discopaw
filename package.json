@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "disco-paw-site",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Site for the band Disco Paw",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ed Whelan <vroxing@gmail.com>",
   "dependencies": {
     "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.20",
