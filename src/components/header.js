@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
 
       <div className='sub-nav-flex'>
         <div>
-          <Link to='#'>The Story</Link>
+          <Link to='/story'>The Story</Link>
         </div>
         <div>
           <Link to='/tunes'>The Tunes</Link>
