@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => (
           <Link to='#'>The Story</Link>
         </div>
         <div>
-          <Link to='#'>The Tunes</Link>
+          <Link to='/tunes'>The Tunes</Link>
         </div>
         <div>
           <Link to='/contact'>The Contact</Link>
