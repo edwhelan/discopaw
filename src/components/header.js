@@ -32,7 +32,7 @@ const Header = ({ siteTitle }) => (
           <Link to='#'>The Tunes</Link>
         </div>
         <div>
-          <Link to='#'>The Contract</Link>
+          <Link to='/contact'>The Contact</Link>
         </div>
       </div>
       <div className='sub-nav-flex'>

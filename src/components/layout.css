@@ -89,6 +89,26 @@ border: 1px solid #fff
   width: 25%;
 border-radius: 5px;
 }
+
+.contact-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.one-contact{
+  width: 250px;
+  text-align: center;
+}
+.one-contact a {
+  text-decoration: none;
+  color: #d7e1ec;
+}
+.one-contact img {
+  width: 100%;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
