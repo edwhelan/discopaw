@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import JustinImage from '../images/Justin.jpeg'
+import JustinImage from '../images/justin.jpeg'
 import DiscoImage from '../images/discopaw.jpeg'
 
 const ContactPage = () => (
