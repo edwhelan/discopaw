@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 
-import { FaInstagram, FaTwitterSquare, FaFacebook } from 'react-icons/fa'
+import { FaInstagram, FaYoutube, FaFacebook } from 'react-icons/fa'
 
 
 const Header = ({ siteTitle }) => (
@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
       </div>
       <div className='sub-nav-flex'>
         <div><a href='https://www.instagram.com/discopaw/'><FaInstagram /></a></div>
-        <div><a href='#' ><FaTwitterSquare /></a></div>
+        <div><a href='https://www.youtube.com/channel/UCRg8-xEnajRkKGbFxg8beRw/featured' ><FaYoutube /></a></div>
         <div><a href='https://www.facebook.com/discopaw/' ><FaFacebook /></a></div>
       </div>
     </div>
