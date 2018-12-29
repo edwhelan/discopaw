@@ -41,6 +41,7 @@ margin-bottom: 1.45rem;
   width: 50%;
   max-width: 450px;
   margin: 0 25%;
+  margin-top: .5em;
 }
 .sub-nav-bot{
   display: flex;
