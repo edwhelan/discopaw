@@ -2,6 +2,7 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 
+import DiscopawLogo from '../images/discopawlogo.jpeg'
 import { FaInstagram, FaYoutube, FaFacebook } from 'react-icons/fa'
 
 
@@ -17,7 +18,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          Disco Paw
+          <img src={DiscopawLogo} alt='logo of disco paw' />
         </Link>
       </h1>
 

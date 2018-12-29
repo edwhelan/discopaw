@@ -36,6 +36,12 @@ margin-bottom: 1.45rem;
   margin-bottom: .5em;
   font-family: 'Major Mono Display', monospace;
 }
+
+.sub-nav-top img {
+  width: 50%;
+  max-width: 450px;
+  margin: 0 25%;
+}
 .sub-nav-bot{
   display: flex;
   justify-content: space-around;
@@ -100,6 +106,7 @@ border-radius: 5px;
 .one-contact{
   width: 250px;
   text-align: center;
+  margin: 0 .5em;
 }
 .one-contact a {
   text-decoration: none;
