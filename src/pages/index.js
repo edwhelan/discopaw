@@ -14,7 +14,7 @@ const IndexPage = () => (
     </div>
     {/* <Link to="/page-2/">Go to page 2</Link> */}
     {/* <ContactForm /> */}
-    <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+    {/* <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
       <input type="hidden" name="bot-field" />
       <div className="field half">
         <label htmlFor="email">Email</label>
@@ -23,6 +23,14 @@ const IndexPage = () => (
       <ul className="actions">
         <li><input type="submit" value="Send Message" className="special" /></li>
       </ul>
+    </form> */}
+    <form name='contact' method="POST" data-netlify='true' data-netlify-honeypot='bot-field' className='footer' >
+      <input type='hidden' name='bot-field' />
+      <div className="contact-text">
+        <label htmlFor="email">Your Email = Free Tunes + More Dance</label>
+        <input className='text-area' type="email" name="email" id="email" />
+      </div>
+      <input type="submit" value="Get Tunes" className='form-butt' />
     </form>
   </Layout>
 )
