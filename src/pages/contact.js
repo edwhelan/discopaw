@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import JustinImage from '../images/justin.jpeg'
 import DiscoImage from '../images/discopaw.jpeg'
+import TimImage from '../images/tim.jpg'
 
 const ContactPage = () => (
   <Layout>
@@ -19,7 +20,7 @@ const ContactPage = () => (
         <p>Tim Glover - Visuals/Film</p>
         <p><a href="mailto:timglover31@gmail.com">timglover31@gmail.com</a></p>
         <p>‭(404) 707-8393‬</p>
-        <img className='contact-picture' src={JustinImage} alt='picture of tim glover' />
+        <img className='contact-picture' src={TimImage} alt='picture of tim glover' />
       </div>
       <div className='one-contact'>
         <p>Disco Paw - Peace Maker/Dance Giver</p>
